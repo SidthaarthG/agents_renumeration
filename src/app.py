@@ -20,7 +20,7 @@ def process_inputs(input1, input2, input3, option1, option2, option3, df, seed=9
      result = policy_combinations[2][['PRODUCTS', 'ZONES', 'PLAN_TYPE', 'AGE_BAND', 'SUM_INSURED', 'PREMIUM', 'CITIES']]
      return result, len(result)
 
-df = pd.read_csv(r"Z:\Policy combination for a set commission income\Data\commission_processed_final.csv")
+df = pd.read_csv(r"commission_processed_final.csv")
 app = dash.Dash(__name__)
 server = app.server
 
