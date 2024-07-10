@@ -1,7 +1,7 @@
 services:
   # See https://render.com/docs/blueprint-spec for more info on render blueprints
   - type: web
-    name: aftershock-batting-beret-6qdz
+    name: consulting-gravy-thongs-kf94
     env: python
     plan: free
     # A requirements.txt file must exist
